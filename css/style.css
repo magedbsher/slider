@@ -1,0 +1,36 @@
+.img-caption{
+    bottom: 10px;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+}
+
+
+#lighrBoxContainer{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+#lightBox{
+    background-image: url(../images/client-1.png);
+    position: relative;
+     background-size: cover; 
+  
+    width: 50%;
+    height: 800px;
+}
+
+
+
+#closeBtn,#prevBtn,#nextBtn{
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    #lightBox {width: 100%;}
+}
